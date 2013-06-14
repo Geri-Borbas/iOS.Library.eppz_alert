@@ -1,49 +1,70 @@
 //
 //  EPPZAppDelegate.m
-//  eppz!alert
+//  eppz!kit
 //
-//  Created by Carnation on 6/14/13.
+//  Created by Borbás Geri on 6/14/13.
 //  Copyright (c) 2013 eppz! development, LLC. All rights reserved.
 //
 
 #import "EPPZAppDelegate.h"
+#import "EPPZAlert.h"
+
 
 @implementation EPPZAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
+-(BOOL)application:(UIApplication*) application didFinishLaunchingWithOptions:(NSDictionary*) launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    //Common app window setup.
+    self. window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
+    
+    //EPPZAlert tests.
+    [self sampleAlerts];
+    
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
+-(void)sampleAlerts
 {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    //Pop first alert.
+    [EPPZAlert alertWithTitle:@"First alert!"
+                      message:@"This alert view instance invoked first in the client code! Can you belive this?"
+                 buttonTitles:@[@"Indeed", @"Not really", @"Leave me alone"]
+                 completition:^(NSString *selectedButtonTitle)
+     {
+         //Pop alert for answer 'Indeed'.
+         if ([selectedButtonTitle isEqualToString:@"Indeed"])
+             [EPPZAlert alertWithTitle:@"Indeed!"
+                               message:@"Of course you can."
+                          buttonTitles:@[ @"Fine." ]];
+         
+         //Pop alert for answer 'Not really'.
+         if ([selectedButtonTitle isEqualToString:@"Not really"])
+             [EPPZAlert alertWithTitle:@"Not really?"
+                               message:@"Because it is confusing that it is not the same that the user sees for the first time."
+                          buttonTitles:@[ @"Pity." ]];
+     }];
+    
+    //Pop second alert.
+    [EPPZAlert alertWithTitle:@"Second alert!"
+                      message:@"This alert view instance invoked secondly in the client code! Do you want to go on with testing?"
+                 buttonTitles:@[@"Yes", @"No", @"Cancel"]
+                 completition:^(NSString *selectedButtonTitle)
+     {
+         //Pop alert for answer 'Yes'.
+         if ([selectedButtonTitle isEqualToString:@"Yes"])
+             [EPPZAlert alertWithTitle:@"Answered yes!"
+                               message:@"Then let's see another alert."
+                          buttonTitles:@[ @"Fine." ]];
+         
+         //Pop alert for answer 'No'.
+         if ([selectedButtonTitle isEqualToString:@"No"])
+             [EPPZAlert alertWithTitle:@"Answered no?"
+                               message:@"Never mind, it is only one alert to dismiss."
+                          buttonTitles:@[ @"Bring it on." ]];
+     }];
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
 
 @end

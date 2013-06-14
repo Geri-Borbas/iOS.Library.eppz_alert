@@ -16,6 +16,11 @@
 		D8E0A58B176B747B006F2B28 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A58A176B747B006F2B28 /* Default.png */; };
 		D8E0A58D176B747C006F2B28 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A58C176B747C006F2B28 /* Default@2x.png */; };
 		D8E0A58F176B747C006F2B28 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A58E176B747C006F2B28 /* Default-568h@2x.png */; };
+		D8E0A597176B74E6006F2B28 /* EPPZAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0A596176B74E6006F2B28 /* EPPZAlert.m */; };
+		D8E0A5AA176B7C50006F2B28 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A5A9176B7C50006F2B28 /* icon.png */; };
+		D8E0A5AC176B7C56006F2B28 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A5AB176B7C56006F2B28 /* icon@2x.png */; };
+		D8E0A5AF176B7C5C006F2B28 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A5AD176B7C5C006F2B28 /* icon-72@2x.png */; };
+		D8E0A5B0176B7C5C006F2B28 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E0A5AE176B7C5C006F2B28 /* icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,12 @@
 		D8E0A58A176B747B006F2B28 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D8E0A58C176B747C006F2B28 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D8E0A58E176B747C006F2B28 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D8E0A595176B74E6006F2B28 /* EPPZAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZAlert.h; sourceTree = "<group>"; };
+		D8E0A596176B74E6006F2B28 /* EPPZAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZAlert.m; sourceTree = "<group>"; };
+		D8E0A5A9176B7C50006F2B28 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D8E0A5AB176B7C56006F2B28 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		D8E0A5AD176B7C5C006F2B28 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		D8E0A5AE176B7C5C006F2B28 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +91,7 @@
 			children = (
 				D8E0A587176B747B006F2B28 /* EPPZAppDelegate.h */,
 				D8E0A588176B747B006F2B28 /* EPPZAppDelegate.m */,
+				D8E0A598176B74EA006F2B28 /* eppz!alert */,
 				D8E0A57F176B747B006F2B28 /* Supporting Files */,
 			);
 			path = "eppz!alert";
@@ -95,8 +107,21 @@
 				D8E0A58A176B747B006F2B28 /* Default.png */,
 				D8E0A58C176B747C006F2B28 /* Default@2x.png */,
 				D8E0A58E176B747C006F2B28 /* Default-568h@2x.png */,
+				D8E0A5A9176B7C50006F2B28 /* icon.png */,
+				D8E0A5AB176B7C56006F2B28 /* icon@2x.png */,
+				D8E0A5AD176B7C5C006F2B28 /* icon-72@2x.png */,
+				D8E0A5AE176B7C5C006F2B28 /* icon-72.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8E0A598176B74EA006F2B28 /* eppz!alert */ = {
+			isa = PBXGroup;
+			children = (
+				D8E0A595176B74E6006F2B28 /* EPPZAlert.h */,
+				D8E0A596176B74E6006F2B28 /* EPPZAlert.m */,
+			);
+			name = "eppz!alert";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +180,10 @@
 				D8E0A58B176B747B006F2B28 /* Default.png in Resources */,
 				D8E0A58D176B747C006F2B28 /* Default@2x.png in Resources */,
 				D8E0A58F176B747C006F2B28 /* Default-568h@2x.png in Resources */,
+				D8E0A5AA176B7C50006F2B28 /* icon.png in Resources */,
+				D8E0A5AC176B7C56006F2B28 /* icon@2x.png in Resources */,
+				D8E0A5AF176B7C5C006F2B28 /* icon-72@2x.png in Resources */,
+				D8E0A5B0176B7C5C006F2B28 /* icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +196,7 @@
 			files = (
 				D8E0A585176B747B006F2B28 /* main.m in Sources */,
 				D8E0A589176B747B006F2B28 /* EPPZAppDelegate.m in Sources */,
+				D8E0A597176B74E6006F2B28 /* EPPZAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +313,7 @@
 				D8E0A594176B747C006F2B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
