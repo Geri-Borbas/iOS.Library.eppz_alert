@@ -1,5 +1,4 @@
 ## ![eppz!tools](http://eppz.eu/layout/common/eppz_50_GitHub.png) eppz!alert
-
 Simplest UIAlertView wrapper ever.
 ```Objective-C
 [EPPZAlert alertWithTitle:@"Alert!"
@@ -18,7 +17,7 @@ Simplest UIAlertView wrapper ever.
 See header file for more (actualluy there is not too much more).
 
 ### Notes
+Implementation uses the Class object itself as a singleton without any singleton setup, so implementation you find inside is a bit unusual, but I like it.
 
-> Implementation uses the Class object itself as a singleton without any singleton setup, so implementation you find inside is a bit unusual, but I like it.
-
+#### Notes
 > Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
