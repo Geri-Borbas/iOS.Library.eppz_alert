@@ -15,9 +15,7 @@ Simplest UIAlertView wrapper ever.
 ```
 
 See header file for more (actualluy there is not too much more).
+> Implementation uses the Class object itself as a singleton without any singleton setup, so implementation you find inside is a bit unusual, but I like it.
 
-### Notes
-Implementation uses the Class object itself as a singleton without any singleton setup, so implementation you find inside is a bit unusual, but I like it.
-
-#### Notes
+#### License
 > Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
