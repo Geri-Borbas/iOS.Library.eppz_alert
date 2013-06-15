@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6FBB2E176CB3570033BB9F /* EPPZAlert+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6FBB2D176CB3570033BB9F /* EPPZAlert+Factory.m */; };
 		D8E0A579176B747B006F2B28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A578176B747B006F2B28 /* UIKit.framework */; };
 		D8E0A57B176B747B006F2B28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A57A176B747B006F2B28 /* Foundation.framework */; };
 		D8E0A57D176B747B006F2B28 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E0A57C176B747B006F2B28 /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE6FBB2C176CB3570033BB9F /* EPPZAlert+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EPPZAlert+Factory.h"; sourceTree = "<group>"; };
+		AE6FBB2D176CB3570033BB9F /* EPPZAlert+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EPPZAlert+Factory.m"; sourceTree = "<group>"; };
 		D8E0A575176B747B006F2B28 /* eppz!alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eppz!alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E0A578176B747B006F2B28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8E0A57A176B747B006F2B28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 			children = (
 				D8E0A595176B74E6006F2B28 /* EPPZAlert.h */,
 				D8E0A596176B74E6006F2B28 /* EPPZAlert.m */,
+				AE6FBB2C176CB3570033BB9F /* EPPZAlert+Factory.h */,
+				AE6FBB2D176CB3570033BB9F /* EPPZAlert+Factory.m */,
 			);
 			name = "eppz!alert";
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 				D8E0A585176B747B006F2B28 /* main.m in Sources */,
 				D8E0A589176B747B006F2B28 /* EPPZAppDelegate.m in Sources */,
 				D8E0A597176B74E6006F2B28 /* EPPZAlert.m in Sources */,
+				AE6FBB2E176CB3570033BB9F /* EPPZAlert+Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
