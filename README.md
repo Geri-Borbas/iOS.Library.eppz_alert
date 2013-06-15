@@ -2,10 +2,6 @@ eppz!alert
 ==========
 
 Simplest UIAlertView wrapper ever.
-
-Usage
-=====
-
 ```Objective-C
 [EPPZAlert alertWithTitle:@"Alert!"
                   message:@"Please choose a task below."
