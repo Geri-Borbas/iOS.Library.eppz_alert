@@ -1,4 +1,4 @@
-## ![eppz!tools](http://eppz.eu/layout/common/eppz_50.png) eppz!alert
+## ![eppz!tools](http://eppz.eu/layout/common/eppz_50_GitHub.png) eppz!alert
 
 Simplest UIAlertView wrapper ever.
 ```Objective-C
