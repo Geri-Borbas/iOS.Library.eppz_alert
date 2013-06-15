@@ -23,4 +23,4 @@ Usage
 Notes
 =====
 
-Implementation uses the Class object itself as a singleton without any singleton setup, so implementation you find inside is a bit useuseful, but I like it.
+Implementation uses the Class object itself as a singleton without any singleton setup, so implementation you find inside is a bit unusual, but I like it.
