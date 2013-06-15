@@ -1,6 +1,6 @@
 //
 //  main.m
-//  eppz!kit
+//  eppz!tools
 //
 //  Created by Borbás on 6/14/13.
 //  Copyright (c) 2013 eppz! development, LLC. All rights reserved.
