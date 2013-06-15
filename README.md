@@ -1,3 +1,4 @@
+![eppz!tools](http://eppz.eu/layout/assets/eppz_Logo.png)
 ## eppz!alert
 
 Simplest UIAlertView wrapper ever.
