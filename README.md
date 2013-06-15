@@ -14,7 +14,7 @@ Simplest UIAlertView wrapper ever.
     }];
 ```
 - - -
-Added some factory presets trough a category (), so you can make it more explicit like these calls below.
+Added some factory presets trough a category [EPPZAlert+Factory](https://github.com/eppz/eppz-alert/blob/master/eppz!alert/EPPZAlert%2BFactory.h#L20), so you can make it more explicit like these calls below.
 ```Objective-C
 [EPPZAlert alertWithTitle:@"Select an answer!"
                   message:nil
