@@ -20,6 +20,8 @@ Usage
     }];
 ```
 
+See header file for more (actualluy there is not too much more).
+
 Notes
 =====
 
