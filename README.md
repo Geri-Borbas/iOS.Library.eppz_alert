@@ -13,11 +13,7 @@ Simplest UIAlertView wrapper ever.
             [self upload];
     }];
 ```
-
-See header file for more (actualluy there is not too much more). Implementation uses the Class object itself as a singleton without any singleton setup, so implementation you find inside is a bit unusual, but I like it.
-
 - - -
-
 Added some factory presets trough a category (), so you can make it more explicit like these calls below.
 ```Objective-C
 [EPPZAlert alertWithTitle:@"Select an answer!"
