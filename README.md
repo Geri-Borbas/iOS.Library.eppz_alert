@@ -27,7 +27,5 @@ Added some factory presets trough a category [EPPZAlert+Factory](https://github.
 > Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/a1347c1d10981327b579a5c806597301 "githalytics.com")](http://githalytics.com/eppz/eppz-alert)
-
-
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/eppz/eppz-alert/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
